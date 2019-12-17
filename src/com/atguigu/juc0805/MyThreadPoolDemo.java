@@ -5,6 +5,7 @@ import java.util.concurrent.*;
 public class MyThreadPoolDemo {
     public static void main(String[] args) {
         System.out.println("/////////");
+        System.out.println("************");
 //         ExecutorService threadPool = Executors.newFixedThreadPool(5);
 //         ExecutorService threadPool = Executors.newCachedThreadPool();
 //         ExecutorService threadPool = Executors.newSingleThreadExecutor();
