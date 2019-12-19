@@ -12,6 +12,7 @@ import java.util.concurrent.CountDownLatch;
  *
  * 解释：10个同学陆续离开教室后值班同学才可以关门。
  *
+ *
  * main主线程必须要等前面10个线程完成全部工作后，自己才能开干
  */
 public class CountDownLatchDemo {
